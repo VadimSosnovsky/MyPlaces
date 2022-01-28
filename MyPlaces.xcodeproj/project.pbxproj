@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893A4B2D27A43C660013F3DB /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893A4B2C27A43C660013F3DB /* CustomTableViewCell.swift */; };
 		898DD8F827A3FA2500205B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DD8F727A3FA2500205B3D /* AppDelegate.swift */; };
 		898DD8FF27A3FA2500205B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898DD8FD27A3FA2500205B3D /* Main.storyboard */; };
 		898DD90127A3FA2600205B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898DD90027A3FA2600205B3D /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		893A4B2C27A43C660013F3DB /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		898DD8F427A3FA2500205B3D /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		898DD8F727A3FA2500205B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		898DD8FE27A3FA2500205B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				898DD8F727A3FA2500205B3D /* AppDelegate.swift */,
 				898DD90B27A3FDF100205B3D /* MainViewController.swift */,
+				893A4B2C27A43C660013F3DB /* CustomTableViewCell.swift */,
 				898DD8FD27A3FA2500205B3D /* Main.storyboard */,
 				898DD90027A3FA2600205B3D /* Assets.xcassets */,
 				898DD90227A3FA2600205B3D /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893A4B2D27A43C660013F3DB /* CustomTableViewCell.swift in Sources */,
 				898DD8F827A3FA2500205B3D /* AppDelegate.swift in Sources */,
 				898DD90C27A3FDF100205B3D /* MainViewController.swift in Sources */,
 			);
